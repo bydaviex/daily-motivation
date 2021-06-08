@@ -3,10 +3,19 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
     <title>New Tab</title>
+    
+   
   </head>
-  <body id="body">
-    <span>
+  <body id="body"> 
+    
+      
+      <div id="imageBG" onload="backgrounds()"> </div>
+    
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+ 
+ <span>
       <img src="./src/imgs/settings.svg" alt="Settings" class="settings">
       <span class="tooltip">
         <img src="./src/imgs/cross-out.svg" alt="Close" class="tooltip-close">
@@ -17,19 +26,12 @@
       <span><img src="./src/imgs/cross-out.svg" alt="Close" class="close"></span>
       <div class="options">
         <p class="options-title">Available Themes</p>
-        <!-- <div class="container" onclick="setTheme('bubbles'); closeNav()">
-          <img src="./src/imgs/bubbles.png" alt="Bubbles">
-          <div class="overlay">
-            <div class="text">
-              Bubbles
-            </div>
-          </div>
-        </div> -->
+        
         <div class="container" id="connected">
           <img src="./src/imgs/connected.png" alt="Connected">
           <div class="overlay">
             <div class="text">
-              Connected
+              New Background Daily
             </div>
           </div>
         </div>
@@ -37,7 +39,7 @@
           <img src="./src/imgs/connectedBlue.png" alt="Connected Blue">
           <div class="overlay">
             <div class="text">
-              Connected Blue
+              Connected Gray
             </div>
           </div>
         </div>
@@ -59,20 +61,26 @@
         </div>
       </div>
     </div>
+    </div>
+    
     <div class="quote-block">
+
+      
+        
       <div>
+        
         <p id="quote"></p>
         <p id="author"></p>
       </div>
     </div>
-    <footer>
-      <p>Made with <img src="src/imgs/Magic.svg" alt="magic"> by <a href="http://www.atagowani.com" class="linkColor">Ata Gowani</a>.</p>
-      <!-- <p class="downloadExtension">Download the extension <a href="https://chrome.google.com/webstore/detail/dailymotivation/nonnkklkpbokmppgochfdamhihaijdin">here!</a></p> -->
-    </footer>
-    <script src="./vendor/js/clear.js"></script>
-    <!-- <script src="./vendor/js/colorfulBubbles.js"></script> -->
-    <script src="./vendor/js/connectedCanvas.js"></script>
-    <script src="./vendor/js/settingsBar.js"></script>
-    <script src="./vendor/js/app.js"></script>
+  
+    <script src="vendor/js/clear.js?t=1491313943549"></script>
+    
+    <script src="vendor/js/connectedCanvas.js?t=1491313943549"></script>
+    <script src="vendor/js/settingsBar.js?t=1491313943549"></script>
+    <script src="vendor/js/app.js?t=1491313943549"></script>
+
+  <script src="vendor/js/clock.js?t=1491313943549"></script>
+  <script src="vendor/js/backgrounds.js?t=14913139445549"></script>
   </body>
 </html>

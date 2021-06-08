@@ -47,11 +47,11 @@ let applyTheme = () => {
     settingGearColorInvert(false);
     canvasDots();
   } else if (theme === 'connectedBlue') {
-    settingGearColorInvert(true);
-    canvasDots('#fff', '#2196F3', '#fff');
+    settingGearColorInvert(false);
+    canvasDots('#fff', '#1a2021', '#f2f2f2e8');
   } else if (theme === 'connectedDarkBlue') {
-    settingGearColorInvert(true);
-    canvasDots('#5cdb95', '#05386b', '#edf5e1');
+    settingGearColorInvert(false);
+    canvasDots('#fff', '#0a0f0f', '#f1ede4e8');
   }
 };
 

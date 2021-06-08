@@ -1,4 +1,4 @@
-let clear = (textColor = '#000') => {
+let clear = (textColor = '#f2f2f2') => {
 
   let body = document.querySelector('body');
   body.style.color = textColor;

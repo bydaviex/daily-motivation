@@ -51,7 +51,7 @@ let applyTheme = () => {
     canvasDots('#fff', '#2196F3', '#fff');
   } else if (theme === 'connectedDarkBlue') {
     settingGearColorInvert(true);
-    canvasDots('#5cdb95', '#05386b', '#edf5e1');
+    canvasDots('#feffff', '#020a0d', '#9fa8a8');
   }
 }
 

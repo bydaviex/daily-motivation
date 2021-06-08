@@ -1,4 +1,4 @@
-var canvasDots = function (colorOfNetwork = '#000', backgroundColor = '#fff', textColor = '#000') {
+var canvasDots = function (colorOfNetwork = '#fff', backgroundColor = 'transparent', textColor = '#fff') {
 
   let body = document.querySelector('body');
   body.style.color = textColor;
